@@ -1,20 +1,22 @@
 # Chérie Salon & Grooming - Real-Time Queue Management System
 
+> 🌐 **Live Production App:** [https://salon-queue-management-k2e2.vercel.app/](https://salon-queue-management-k2e2.vercel.app/)
+
 A production-ready Real-Time Salon Queue Management web application built with **React**, **Vite**, and **Tailwind CSS**. Designed with the luxury, editorial salon aesthetic (*Chérie Salon & Spa*), featuring bilingual support (**English & Gujarati**), real-time cross-device sync, and smart FIFO dispatching.
 
 ---
 
 ## 🌟 Live Screens & Routes
 
-| Screen | Route | Description |
-| :--- | :--- | :--- |
-| **Customer Home** | `/` | Salon hero banner, live wait-time pulse card, stylist preview, and token tracker modal. |
-| **Join Queue** | `/join` | Multi-step remote registration with phone duplicate guard, max-3 service selection, and stylist preference. |
-| **Live Status Tracker** | `/status/:id` | Dynamic rank, estimated countdown clock, approach warning alerts, and full-screen "It's Your Turn" modal. |
-| **Receptionist Dashboard** | `/reception` | Front-desk tablet 2-column command center, active workstation overview, walk-in quick-entry modal, and priority triage. |
-| **Barber Mirror Station** | `/barber/:name` | Mirror tablet interface with live service stopwatch, on-duty/break toggles, and single-chair concurrency lockout. |
-| **Waiting Area TV Display** | `/display` | 16:9 full-screen 1080p landscape display with "Now Serving" grid, animated column pulses, and Web Audio melodic chimes. |
-| **Owner Admin & Analytics** | `/admin` | Master queue toggle switch, daily revenue and customer KPIs, service catalog controls, and staff roster. |
+| Screen | Route | Direct Live Link | Description |
+| :--- | :--- | :--- | :--- |
+| **Customer Home** | `/` | [Open Home](https://salon-queue-management-k2e2.vercel.app/) | Salon hero banner, live wait-time pulse card, stylist preview, and token tracker modal. |
+| **Join Queue** | `/join` | [Open Join Queue](https://salon-queue-management-k2e2.vercel.app/join) | Multi-step remote registration with phone duplicate guard, max-3 service selection, and stylist preference. |
+| **Live Status Tracker** | `/status/:id` | [Open Sample Tracker](https://salon-queue-management-k2e2.vercel.app/status/tok-103) | Dynamic rank, estimated countdown clock, approach warning alerts, and full-screen "It's Your Turn" modal. |
+| **Receptionist Dashboard** | `/reception` | [Open Reception Desk](https://salon-queue-management-k2e2.vercel.app/reception) | Front-desk tablet 2-column command center, active workstation overview, walk-in quick-entry modal, and priority triage. |
+| **Barber Mirror Station** | `/barber/:name` | [Open Barber Mirror](https://salon-queue-management-k2e2.vercel.app/barber/barber-1) | Mirror tablet interface with live service stopwatch, on-duty/break toggles, and single-chair concurrency lockout. |
+| **Waiting Area TV Display** | `/display` | [Open TV Wall Display](https://salon-queue-management-k2e2.vercel.app/display) | 16:9 full-screen 1080p landscape display with "Now Serving" grid, animated column pulses, and Web Audio melodic chimes. |
+| **Owner Admin & Analytics** | `/admin` | [Open Owner Admin](https://salon-queue-management-k2e2.vercel.app/admin) | Master queue toggle switch, daily revenue and customer KPIs, service catalog controls, and staff roster. |
 
 ---
 
