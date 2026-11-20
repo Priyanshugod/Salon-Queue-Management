@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAF7F2] text-[#1F1F1F] font-sans;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom luxury scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8E0D8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E07A5F;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(224, 122, 95, 0.2);
+    border-color: #E07A5F;
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(224, 122, 95, 0.6);
+    border-color: #F26440;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 1.8s infinite;
+}
